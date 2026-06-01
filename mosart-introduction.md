@@ -7,6 +7,7 @@
 - [Objectives](#objectives)
 - [Architecture Overview](#architecture-overview)
 - [Open-Source Vision](#open-source-vision)
+- [Project Status](#project-status)
 - [Roadmap](#roadmap)
   - [Areas Under Evaluation](#areas-under-evaluation)
     - [Linux-to-DSP Management Framework](#linux-to-dsp-management-framework)
@@ -31,10 +32,10 @@ future AI-RAN systems and beyond.
 
 MOSART is initially demonstrated on Metanoia’s Cobra SoC platform,
 which serves as the primary reference implementation platform for the
-project. The platform provides a cost-efficient, high-performance, and
-production-quality environment for developing, evaluating, and
-deploying current and next-generation wireless communication
-solutions, especially for 3GPP and O-RAN compliant radio systems.
+project. The platform provides a cost-efficient, production-oriented
+reference environment for developing and evaluating current and
+next-generation wireless communication solutions, especially systems
+aligned with 3GPP and O-RAN architectures.
 
 MOSART is designed to support future AI-assisted radio optimization,
 edge inference workloads, intelligent RAN orchestration frameworks,
@@ -54,15 +55,14 @@ upstream-friendly development across the wireless ecosystem.
 ## Key Features
 
 - Open-source SDR platform
-- O-RAN compliant software stack
+- O-RAN-aligned software stack
 - Yocto-based SDK and development environment
 - Portable architecture adaptable to other build systems such as Buildroot
 - Modular repository and software architecture
 - Real-time DSP and radio processing integration
 - Linux-based embedded wireless platform
-- AI-RAN ready platform foundation
 - Cobra SoC reference implementation platform
-- Production-quality wireless infrastructure integration
+- Production-oriented wireless infrastructure integration examples
 
 ## Objectives
 
@@ -74,12 +74,12 @@ The primary objectives of MOSART are:
 - Offer a reproducible Yocto-based SDK and development environment
   while remaining portable to other build systems such as Buildroot
 - Support collaboration between industry, academia, and ecosystem partners
-- Demonstrate production-quality embedded wireless system integration
+- Demonstrate production-oriented embedded wireless system integration
 
 ## Architecture Overview
 
 MOSART is built on a modular architecture demonstrated on the O-RAN
-WG7 Whitebox compliant Cobra SoC evaluation platform. The platform
+WG7 Whitebox-oriented Cobra SoC evaluation platform. The platform
 combines general-purpose processing, DSP acceleration, RF control,
 synchronization, timing, and high-speed networking into a unified SDR
 system architecture.
@@ -102,8 +102,8 @@ maintained, extended, customized, and upstreamed where appropriate.
 ## Open-Source Vision
 
 MOSART aims to bridge the gap between research-oriented SDR platforms
-and carrier-grade wireless infrastructure solutions. By combining
-open-source software methodologies with commercial-quality platform
+and production-oriented wireless infrastructure development. By
+combining open-source software methodologies with practical platform
 integration, MOSART provides a foundation for long-term ecosystem
 collaboration, innovation, and future wireless experimentation.
 
@@ -111,12 +111,22 @@ Public documentation, source repositories, development guides, and
 reference demonstrations will continue to expand as the project
 evolves.
 
+## Project Status
+
+MOSART is an evolving open-source reference platform. The initial
+public repositories and documentation are intended to support
+development, evaluation, integration, and ecosystem collaboration.
+Feature availability, hardware support, performance characteristics,
+and deployment readiness may vary by repository, branch, platform
+configuration, and release stage.
+
 ## Roadmap
 
-MOSART is intended to evolve progressively from an open O-RAN O-RU
-reference implementation into a broader software-defined radio (SDR)
-platform supporting wireless infrastructure innovation, AI-RAN
-research, and advanced radio system development.
+MOSART is intended to evolve progressively from an open reference
+implementation for O-RAN O-RU development into a broader
+software-defined radio (SDR) platform supporting wireless
+infrastructure innovation, AI-RAN research, and advanced radio system
+development.
 
 The following areas are currently being evaluated and explored as part
 of the ongoing evolution of the MOSART ecosystem.
@@ -189,14 +199,15 @@ Roadmap items are provided for informational purposes only and are
 subject to change as project priorities, community contributions,
 technology developments, and ecosystem requirements evolve.
 
-
 ## Legal Notices
 
 ### Open-Source Licensing
 
 Unless otherwise specified, MOSART repositories and software
 components are released under the open-source licenses documented
-within their respective repositories.
+within their respective repositories. The applicable license for each
+repository is defined by the LICENSE file and accompanying notices in
+that repository.
 
 Third-party software components may remain subject to their original
 upstream licenses and terms.
@@ -206,6 +217,8 @@ upstream licenses and terms.
 MOSART™ (Metanoia Open-Source Advanced Radio Technology), Cobra™, and
 related names, logos, and branding are trademarks or registered
 trademarks of Metanoia Communications Inc. or their respective owners.
+All third-party trademarks are the property of their respective
+owners.
 
 Use of the MOSART name, logo, or branding does not grant endorsement,
 certification, or official partnership status unless explicitly
