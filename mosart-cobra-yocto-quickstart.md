@@ -53,8 +53,28 @@ Clone the official MOSART Yocto BSP repository:
 ```bash
 git -c protocol.file.allow=always clone \
   --recurse-submodules \
-  -b use-mosart \
+  -b mosart-main \
   git@gitlab.com:metanoia-comm/mosart/public/meta-metanoia.git
+```
+If you are cloning the Source from GitHub, please update the recipe SRC_URI to GitHub with following command.
+
+```bash
+cd meta-metanoia && ./recipe_update_github_uri.sh
+Updating: ./recipes-connectivity/oran-mplane/meta-oran-mplaned_1.6.0.bb
+Updating: ./recipes-core/metanoia-base/metanoia-base.bb
+Updating: ./recipes-core/board-init/board-init.bb
+Updating: ./recipes-kernel/linux-metanoia/linux-metanoia_6.1.bb
+Updating: ./recipes-bsp/opensbi/opensbi_1.0.bb
+Updating: ./recipes-bsp/ddrfw/ddrfw-legacy_1.0.bb
+Updating: ./recipes-bsp/u-boot/u-boot_2023.01.bb
+Updating: ./recipe_update_github_uri.sh
+Updating: ./recipes-mras/dspfw/dspfw_0.1.bb
+Updating: ./recipes-mras/mras-init/mras-init.bb
+Updating: ./recipes-management/meta-rf/meta-rf_0.1.bb
+Updating: ./recipes-management/rumanager/rumanager_0.1.bb
+Updating: ./recipes-management/mpapi/mpapi_0.1.bb
+Updating: ./recipes-devtools/gnssModule/gnss-module.bb
+Updating: ./recipes-devtools/sfp-module/sfp-module.bb
 ```
 
 ---
